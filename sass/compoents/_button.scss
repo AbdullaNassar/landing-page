@@ -5,8 +5,6 @@
     text-transform: uppercase;
     text-decoration: none;
     padding: 1.5rem 4rem;
-    background-color: $color-white;
-    color: $color-grey-dark;
     border-radius: 10rem;
     transition: all 0.3s;
     font-size: 1.6rem;
@@ -23,9 +21,16 @@
   }
 
   &--white {
+    background-color: $color-white;
+    color: $color-grey-dark;
     animation: moveInDown 1s ease-in-out;
     animation-delay: 1s;
     animation-fill-mode: backwards;
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
   }
 }
 
