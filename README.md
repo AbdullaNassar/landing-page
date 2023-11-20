@@ -1,7 +1,7 @@
-# landing-page
 
-<h2>pretty landing page built for practise on SASS.</h2>
+
+### Pretty landing page was built for practice on SASS.
 
 <br/>
 
-<a href="https://landing-page-abdo.netlify.app/">Live-demo</a>
+## <a href="https://landing-page-abdo.netlify.app/">Live-demo</a>
