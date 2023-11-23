@@ -9,6 +9,15 @@
   font-size: 1.6rem;
   transform: skewX(-12deg);
 
+  @include respond(tab-port) {
+    width: 100%;
+    padding: 4rem;
+    padding-left: 7rem;
+  }
+  @include respond(phone) {
+    transform: skewX(0);
+  }
+
   //   this not work because story__shape class has already transform property
   //   & > * {
   //     transform: skewX(12deg);
@@ -25,6 +34,9 @@
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     // background-color: orangered;
+    @include respond(phone) {
+      transform: translateX(-3rem) skewX(0);
+    }
   }
 
   &__image {
@@ -50,6 +62,9 @@
 
   &__text {
     transform: skewX(12deg);
+    @include respond(phone) {
+      transform: skewX(0);
+    }
   }
 
   &:hover &__caption {
