@@ -1,4 +1,4 @@
- <a href="https://abdo-nexter.netlify.app//" target="_blank">Live-demo 🚀</a>
+ <a href="https://landing-page-abdo.netlify.app/" target="_blank">Live-demo 🚀</a>
 
 ### Tools used:
 
